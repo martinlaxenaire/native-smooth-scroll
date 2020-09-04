@@ -3,7 +3,7 @@ Native smooth scroll
 <h2>Initializing</h2>
     
 ```javascript
-import {SmoothScroll} from './src/native.smooth.scroll.es.js';
+import {SmoothScroll} from './src/native.smooth.scroll.js';
 
 const smoothScroll = new SmoothScroll({
     container: document.querySelector(".container"),
