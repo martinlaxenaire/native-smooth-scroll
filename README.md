@@ -24,7 +24,7 @@ const smoothScroll = new SmoothScroll.SmoothScroll({
 
 <h3>Parameters</h3>
 
-There are 2 basic parameters that you can specify:
+Here are the basic parameters that you can specify:
 
 | Parameter  | Type | Default | Description |
 | --- | --- | --- | --- |
