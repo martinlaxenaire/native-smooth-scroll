@@ -7,7 +7,8 @@ export default [{
         {
             file: 'dist/native.smooth.scroll.umd.js',
             format: 'umd',
-            name: 'SmoothScroll',
+            name: 'window',
+            extend: true,
             plugins: [
                 getBabelOutputPlugin({
                     allowAllFormats: true,
@@ -21,7 +22,8 @@ export default [{
         {
             file: 'dist/native.smooth.scroll.umd.min.js',
             format: 'umd',
-            name: 'SmoothScroll',
+            name: 'window',
+            extend: true,
             plugins: [
                 getBabelOutputPlugin({
                     allowAllFormats: true,

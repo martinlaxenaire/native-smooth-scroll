@@ -10,14 +10,14 @@ const smoothScroll = new SmoothScroll({
 });
 ```
 
-In a browser, you can use the UMD files located in the `dist` directory. You will have to use the `SmoothScroll` namespace:
+In a browser, you can use the UMD files located in the `dist` directory:
     
 ```html
 <script src="dist/native.smooth.scroll.umd.js"></script>
 ```
 
 ```javascript
-const smoothScroll = new SmoothScroll.SmoothScroll({
+const smoothScroll = new SmoothScroll({
     container: document.querySelector(".container"),
 });
 ```
